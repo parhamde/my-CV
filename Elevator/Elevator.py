@@ -1,22 +1,27 @@
+
+"""IMPORT LIBRARY PYQT5"""
 from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QApplication , QMainWindow
 from PyQt5.QtCore import pyqtSignal
 import sys
-
+"""END IMPORT LIBRARY"""
 def clicked():
     print("clicked")
-    
+""" START WINDOW"""    
 def window():
     app = QApplication(sys.argv)
     win = QMainWindow()
     win.setGeometry(500, 500, 500, 500)
-    win.setWindowTitle("first")
+    win.setWindowTitle("Elevator")
     
     
     label = QtWidgets.QLabel(win)
     label.setText("travel")
     label.move(50,50)
-    
+
+
+    """START BUTTON""" 
+
     
     b1 = QtWidgets.QPushButton(win)
     b1.setText("1")
@@ -54,6 +59,9 @@ def window():
     b6.setFixedSize(40,30)
     b6.setText("4")
     b6.move(360,80)
+    
+    """TEACHER
+    """
 
 
     
