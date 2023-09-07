@@ -1,3 +1,5 @@
 # my-CV 
-any my project im my new issues 
+my project 
+if i start new project 
+i create new issues 😉
 
