@@ -60,8 +60,7 @@ def window():
     b6.setText("4")
     b6.move(360,120)
     
-    """TEACHER
-    """
+    
 
 
     
