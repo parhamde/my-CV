@@ -52,13 +52,13 @@ def window():
     b5.setText("3")
     b5.setStyleSheet("background-color: yellow; color:aqua; border-radius:10px;")
     b5.setFixedSize(40,30)
-    b5.move(405,80)
+    b5.move(405,120)
 
     b6 = QtWidgets.QPushButton(win)
     b6.setStyleSheet("background-color: yellow; color:aqua; border-radius:10px;")
     b6.setFixedSize(40,30)
     b6.setText("4")
-    b6.move(360,80)
+    b6.move(360,120)
     
     """TEACHER
     """
