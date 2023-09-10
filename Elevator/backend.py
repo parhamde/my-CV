@@ -1,5 +1,6 @@
+from PyQt5.QtCore import pyqtSignal
 def clicked():
-    print("clicked")
+    print("dd")
     pass
 def clicked2():
     print("clicked")

@@ -18,7 +18,7 @@ def window():
     
     label = QtWidgets.QLabel(win)
     label.setText("travel")
-    label.move(50,50)
+    label.move(180,400)
 
 
     """START BUTTON""" 
