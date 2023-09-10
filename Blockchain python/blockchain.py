@@ -28,11 +28,13 @@ class blockchain:
         check_proof = False
 
         while not check_proof:
-            to_digest = self_to_digest(new_proof=new_proof,
-            previous_proof=previous_proof,
-            index=index, 
-            data=data
-            )
+            print(new_proof)
+            to_digest = self_to_digest(
+               new_proof=new_proof,
+               previous_proof=previous_proof,
+               index=index, 
+               data=data
+               )
             hash_.value = _hashlib.sha256(to_digest).hexdigest()
 
             if hash_.value[:4] == "0000":
