@@ -6,7 +6,7 @@ from PyQt5.QtCore import pyqtSignal
 import sys
 """END IMPORT LIBRARY"""
 
-# class page - constructor -> label (seld.label = label) -> def clicked : label.
+
 """ START WINDOW"""    
 def window():
     app = QApplication(sys.argv)
