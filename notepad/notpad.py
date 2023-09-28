@@ -6,7 +6,7 @@ from tkinter import filedialog
 root=Tk()
 root.geometry("500x600")
 root.title("Notpad")
-root.iconbitmap("icons8-notepad-70.ico")
+root.iconbitmap('./notepad/icons8-notepad-70.ico')
 
 #function button save
 def save_file():
@@ -18,6 +18,10 @@ def save_file():
     open_file.close()
 #function  button clear
 def clear():
+    entry.delete(1.0,END)
+
+#fuction button run
+def run():
     print('')
 #function button open_file
 def open_file():
@@ -38,6 +42,9 @@ b2.place(x=74,y=10)
 #open file
 b3=Button(root,text="open file",command= open_file)
 b3.place(x=120,y=10)
+#run file
+b4=Button(root,text="Run file" ,command= run)
+b4.place(x=190,y=10)
 #entry box
 entry=Text(root,height=30,width=58,wrap=WORD ,fg="black",bg="GRAY")
 entry.place(x=10,y=65)
